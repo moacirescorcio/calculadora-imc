@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+button{
+    margin: 15px;
+    border-radius: 10px; 
+    
+    width: 100px;
+    height: 30px;
+
+    background-color: #6D8B74;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+#principal{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(255, 255, 255);
+
+    height: 100vh;
+}
+
+#titulo{
+    display: flex;
+
+    justify-content: center;
+
+    font-family: Arial;
+    font-size: 1.2rem;
+    color: white;
+
+    background-color: #6D8B74;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    
+}
+
+#preenchimento{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #D0C9C0;
+    
+    flex: 1;
+
+    margin: 20px;
+    height: 85vh;
+
+    border-radius: 40px;
+    
+    box-shadow: 10px 10px 8px #888888;
+}
+
+
+#preenc_01{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+
+    margin-top: 100px;    
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#imagem{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+
+    width: 200px;
+    height: 200px;
+}
+#sexo{
+    display: flex;
+
+    border: 0.5px solid gray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+
+    align-items: center;
+
+}
+#imc{
+    display: flex;
+
+    border: 0.5px solid gray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+
+    align-items: center;
+}
+#resultado{
+    display: flex;
+
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+
+    align-items: center;
+}
+
+#preenc_02{
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: center;
+    align-items: center; */
+    flex: 1;
+    padding: 5px;
+
+    
+}
+input{
+    margin: 10px;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 300px;
+
+    border-radius: 5px;
+}
+
+#masc_fem{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+
+    margin-left: 12px;
+}
+
+#botoes_calc_salvar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    margin-top: 40px;
+
+}
+
+#calcular, #salvar{
+    width: 200px;
+}
+
+
+
+#resultados{
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+
+    background-color: #D0C9C0;
+
+    margin: 20px;
+
+    margin: 20px;
+    height: 85vh;
+    border-radius: 40px;
+
+    flex: 1;
+
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#resultados_01{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    padding-top: 10%;
+    
+}
+
+#limpar{
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-bottom: 30px;
+
+    
+}
+
+#botao_limpar{
+    width: 200px;
+}
