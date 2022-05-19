@@ -55,25 +55,28 @@ button{
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
+    flex-wrap: wrap;
     
 }
 
 #preenchimento{
     display: flex;
     flex-direction: column;
-    
+    flex: 10;
+
     background-color: #D0C9C0;
 
     justify-content: center;
     align-items: center;
-    
-    flex: 1;
+
+    margin: 20px;
 
     margin: 20px;
     height: 85vh;
-
     border-radius: 40px;
-    
+
+    flex: 1;
+
     box-shadow: 10px 10px 8px #888888;
 }
 
