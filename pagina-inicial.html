@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="comportamento.js"></script>
 </head>
 <body>
     <div id="principal">
@@ -15,7 +16,7 @@
         <div id="corpo">           
             
             <div id="preenchimento">
-                <div id="titulo_preenchimento"><h2>Formulário</h2></div>
+                <div id="titulo_preenchimento"><h2>Calcule seu IMC</h2></div>
                 <div id="corpo_preench">
                     <div id="preenc_01">
                         
@@ -27,20 +28,20 @@
                     </div>
                     <div id="preenc_02">
                         <div id="masc_fem">
-                            <button>Masculino</button>
+                            <button class="selecionado">Masculino</button>
                             <button>Feminino</button>
                         </div>
                         <div id="inputs">
-                            <h3 id="nome">Nome</h3>
+                            <h3 id="nome">Nome:</h3>
                             <input type="text" id="input_nome">
-                            <h3 id="altura">Altura</h3>
+                            <h3 id="altura">Altura:</h3>
                             <input type="number" name="" id="input_altura">
-                            <h3 id="peso">Peso</h3>
+                            <h3 id="peso">Peso:</h3>
                             <input type="number" name="peso" id="input_peso">
                         </div>
                         <div id="botoes_calc_salvar">
-                            <button id="calcular">Calcular</button>
-                            <button id="salvar">Salvar</button>
+                            <button id="calcular">CALCULAR</button>
+                            <button id="salvar">SALVAR</button>
                         </div>    
                     </div>
                 </div>
@@ -53,7 +54,7 @@
                     <div id="excluir">Excluir</div>
                 </div>
                 <div id="limpar">
-                    <button id="botao_limpar" type="reset">Limpar</button>               
+                    <button id="botao_limpar" type="reset">LIMPAR</button>               
                  </div>
             </div>
         </div>
