@@ -130,7 +130,7 @@ button{
     width: 200px;
     height: 200px;
 }
-#sexo{
+#show_sexo, #show_nome{
     display: flex;
 
     border: 0.5px solid gray;
@@ -143,7 +143,7 @@ button{
     align-items: center;
 
 }
-#imc{
+#show_imc{
     display: flex;
 
     border: 0.5px solid gray;
@@ -155,7 +155,7 @@ button{
 
     align-items: center;
 }
-#resultado{
+#show_resultado{
     display: flex;
 
     border: 1px solid gray;
